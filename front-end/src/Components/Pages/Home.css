@@ -1,0 +1,22 @@
+.container {
+    width: 100vw;
+    height: 94vh;
+    background-color: #9f9f9f;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+}
+
+.col {
+    text-align: center;
+    font-family: 'Piazzolla', serif;
+    font-size: 30px;
+    background-color: #bfbfbf;
+    padding: 10px;
+    margin: 10px;
+    padding-top: 200px;
+}
+
+.col > p {
+    padding: 40px;
+}

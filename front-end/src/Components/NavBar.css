@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Piazzolla', serif;
+}
+
+.navbar {
+    background: #34323f;
+    height: 6vh;
+    width: 100vw;
+}
+
+.nav-container {
+    margin: 0;
+    padding: 10px 50px;
+    font-family: 'Piazzolla', serif;
+}
+
+.logo {
+    color: white;
+    min-height: 50px;
+    font-size: 30px;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.logo > p {
+    padding: 3px;
+    padding-left: 10px;
+}
+.logo > i {
+    padding: 3px;
+}

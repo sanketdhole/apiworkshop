@@ -1,0 +1,27 @@
+.base {
+  height: 94vh;
+  width: 100vw;
+  background-color: #9f9f9f;
+}
+.form-base {
+  display: flex;
+  justify-content: center;
+}
+.search-result {
+  display: grid;
+  grid-template-columns: 40vw auto;
+  width: 100vw;
+  height: 80vh;
+}
+.jobs-list {
+  width: 40vw;
+  border: 1px solid black;
+  height: 80vh;
+  overflow: hidden;
+  text-align: right;
+}
+
+.job-description {
+  border: 1px solid black;
+  text-align: left;
+}

@@ -1,0 +1,52 @@
+.form-container {
+    background-color: #9f9f9f;
+    height: 94vh;
+    text-align: center;
+}
+
+.form {
+    display: block;
+    width: 25vw;
+    height: 30vh;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-align: center;
+    background-color: #afafaf;
+    border-radius: 20px;
+}
+
+.form > p {
+    font-size: 35px;
+    margin: 30px;
+}
+
+.form > form {
+    display: block;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+
+.form > form > input {
+    display: block;
+    border: 1px solid #34323f;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10vw;
+    text-align: center;
+}
+
+.form > form > input[type=button] {
+    background-color: #34323f;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+}
